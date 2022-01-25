@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="integration" />
+				<exclude name="Smoke Test" />
+				<exclude name="Sanity Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Testng.NewTestdata" />
+		</classes>
+	</test>
+</suite>

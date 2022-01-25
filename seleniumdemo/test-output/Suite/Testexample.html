@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  Testexample</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testexample</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 13 11:09:50 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25196 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Testng.withEnabled.c_language()'><b>c_language</b><br>Test class: Testng.withEnabled</td>
+<td></td>
+<td>0</td>
+<td>Testng.withEnabled@e320068</td></tr>
+<tr>
+<td title='Testng.withPeriority1.APPle()'><b>APPle</b><br>Test class: Testng.withPeriority1</td>
+<td></td>
+<td>0</td>
+<td>Testng.withPeriority1@5f282abb</td></tr>
+<tr>
+<td title='Testng.descriptiontest.loginWithInValidUser()'><b>loginWithInValidUser</b><br>Test class: Testng.descriptiontest<br>Test method: TC2: Login with invalid user</td>
+<td></td>
+<td>0</td>
+<td>Testng.descriptiontest@2833cc44</td></tr>
+<tr>
+<td title='Testng.activeTimeTask.OpenBrowserAndLogin()'><b>OpenBrowserAndLogin</b><br>Test class: Testng.activeTimeTask</td>
+<td></td>
+<td>24</td>
+<td>Testng.activeTimeTask@59e5ddf</td></tr>
+<tr>
+<td title='Testng.SampleTesting.testcase1()'><b>testcase1</b><br>Test class: Testng.SampleTesting</td>
+<td></td>
+<td>0</td>
+<td>Testng.SampleTesting@33f88ab</td></tr>
+<tr>
+<td title='Testng.descriptiontest.loginWithEmpty()'><b>loginWithEmpty</b><br>Test class: Testng.descriptiontest<br>Test method: TC3: Login with empty user</td>
+<td></td>
+<td>0</td>
+<td>Testng.descriptiontest@2833cc44</td></tr>
+<tr>
+<td title='Testng.Dependontest.webStudentLogin()'><b>webStudentLogin</b><br>Test class: Testng.Dependontest</td>
+<td></td>
+<td>0</td>
+<td>Testng.Dependontest@646d64ab</td></tr>
+<tr>
+<td title='Testng.withEnabled.java()'><b>java</b><br>Test class: Testng.withEnabled</td>
+<td></td>
+<td>0</td>
+<td>Testng.withEnabled@e320068</td></tr>
+<tr>
+<td title='Testng.Dependontest.ApiStudentLogin()'><b>ApiStudentLogin</b><br>Test class: Testng.Dependontest</td>
+<td></td>
+<td>0</td>
+<td>Testng.Dependontest@646d64ab</td></tr>
+<tr>
+<td title='Testng.Dependontest.MobileStudentLogin()'><b>MobileStudentLogin</b><br>Test class: Testng.Dependontest</td>
+<td></td>
+<td>0</td>
+<td>Testng.Dependontest@646d64ab</td></tr>
+<tr>
+<td title='Testng.descriptiontest.loginWithValidUser()'><b>loginWithValidUser</b><br>Test class: Testng.descriptiontest<br>Test method: Tc1:Login With Valid User</td>
+<td></td>
+<td>0</td>
+<td>Testng.descriptiontest@2833cc44</td></tr>
+<tr>
+<td title='Testng.withPeriority1.WaterMelon()'><b>WaterMelon</b><br>Test class: Testng.withPeriority1</td>
+<td></td>
+<td>0</td>
+<td>Testng.withPeriority1@5f282abb</td></tr>
+<tr>
+<td title='Testng.withPeriority1.Mango()'><b>Mango</b><br>Test class: Testng.withPeriority1</td>
+<td></td>
+<td>0</td>
+<td>Testng.withPeriority1@5f282abb</td></tr>
+<tr>
+<td title='Testng.sampletesting1.testcase1()'><b>testcase1</b><br>Test class: Testng.sampletesting1</td>
+<td></td>
+<td>0</td>
+<td>Testng.sampletesting1@536aaa8d</td></tr>
+</table><p>
+</body>
+</html>

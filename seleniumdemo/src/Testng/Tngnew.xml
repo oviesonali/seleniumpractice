@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="Regression" />
+				<exclude name="Smoke Test" />
+				<exclude name="Sanity Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Testng.GroupExample" />
+		</classes>
+	</test>
+</suite>
